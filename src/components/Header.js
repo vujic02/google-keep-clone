@@ -1,9 +1,11 @@
 import React from 'react';
 import Logo from './Logo';
+import GithubIcon from './icons/GithubIcon';
 
 const Header = ({pageTitle}) => {
     return (
         <div className="Header">
+            <a href="http://github.com/vujic02"><GithubIcon/></a>
             <h1 className="header-text">
                 {pageTitle}
             </h1>

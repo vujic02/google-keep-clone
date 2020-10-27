@@ -447,3 +447,22 @@ pre {
 .header-text {
   text-align: center;
 }
+
+.github-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #202124;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.github-icon:hover {
+  color: #000000;
+  cursor: pointer;
+}
